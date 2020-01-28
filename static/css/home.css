@@ -70,7 +70,7 @@
   bottom: 20px;
   left: 13%;
   top: 25%;
-  z-index: 10;
+  z-index: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
@@ -106,6 +106,7 @@
 .home-aboutus{
   padding-top: 98px;
   padding-bottom: 98px;
+  background-color: #F7FAFF;
 }
 .cl-tk-left h3{
   font-weight: bold;
@@ -144,4 +145,72 @@
   color: #FFFFFF;
   border: 1px solid #5986CB;
   background-color: #5986CB;
+}
+
+.bidang-usaha{
+  padding-top: 110px;
+  padding-bottom: 130px;
+}
+.ct-prt-bu-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ct-prt-bu-home h3{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #232D79;
+  margin-bottom: 24px;
+}
+.ct-prt-bu-home p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #878787;
+  max-width: 580px;
+  margin-bottom: 82px;
+}
+.rw-prt-bu-home{
+  justify-content: center;
+}
+.bg-bu-card{
+  background-color: #31BF7B;
+}
+.bg-bu-card-blue{
+  background-color: #5986CB;
+}
+.bg-bu-card-orange{
+  background-color: #E59F4D;
+}
+.bg-bu-card-purple{
+  background-color: #AF7BD9;
+}
+.bg-bu-card-mate{
+  background-color: #3D3D61;
+}
+.wrapper-card-bu{
+  border-radius: 8px;
+  padding: 28px 32px;
+  margin-bottom: 30px;
+}
+.wrapper-card-bu img{
+  margin-bottom: 14px;
+}
+.wrapper-card-bu h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.wrapper-card-bu h6{
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
