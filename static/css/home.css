@@ -10,6 +10,9 @@
   color: #FFFFFF;
   font-weight: lighter;
   } 
+  .bg-light{
+    background-color: transparent !important;
+  }
   .ct-nav{
     padding: 0 6%;
   }
@@ -102,4 +105,7 @@
   padding-left: 0;
   margin-right: 15%;
   margin-left: 15%;
+}
+.home-aboutus{
+  height: 2000px;
 }
