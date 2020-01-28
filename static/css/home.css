@@ -10,9 +10,6 @@
   color: #FFFFFF;
   font-weight: lighter;
   } 
-  .bg-light{
-    background-color: transparent !important;
-  }
   .ct-nav{
     padding: 0 6%;
   }
@@ -107,5 +104,44 @@
   margin-left: 15%;
 }
 .home-aboutus{
-  height: 2000px;
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+.cl-tk-left h3{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #232D79;
+  margin-bottom: 24px;
+}
+.cl-tk-left p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #878787;
+  margin-bottom: 88px;
+}
+.btn-group-tk .btn-tk{
+  background-color: #F7FAFF;
+  border: 1px solid #5986CB;
+  border-radius: 50px;
+  padding: 18px 46px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #5986CB;
+  margin-right: 12px;
+}
+.btn-group-tk .btn-tk:hover{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 18px 45px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border: 1px solid #5986CB;
+  background-color: #5986CB;
 }
