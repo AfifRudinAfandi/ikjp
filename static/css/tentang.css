@@ -1,0 +1,119 @@
+.hero-tk{
+    height: 50vh;
+    background-image: url('../images/bg-hero2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cprofile{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 14px;
+    margin-top: -100px;
+}
+.cprofile .nav{
+    display: block;
+}
+.cp-nav .item-cp.active {
+    background-color: #F7FAFF;
+}
+.ul-cp{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+.ul-cp h4{
+    padding-left: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #48CB6D;
+}
+.ul-cp li{
+    cursor: pointer;
+}
+.cp-nav .item-cp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px 24px 30px;
+    margin-bottom: -1px;
+}
+.cp-nav .item-cp{
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+.cp-nav .item-cp:hover{
+    background-color: #F7FAFF;
+}
+.cp-nav .item-cp i{
+    color: #48CB6D;
+}
+
+.active>.item-cp{
+    background-color: #F7FAFF;
+}
+.cp-nav hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    margin: 0 30px;
+    border-top: 1px solid rgba(228, 228, 228, 0.397) ;
+}
+.cp-nav:nth-last-child(1) hr{
+    display: none;
+}
+.cprofile-detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 72px;
+    padding-bottom: 180px;
+    padding-left: 48px;
+}
+.cprofile-detail h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: capitalize;
+    color: #232D79;
+    margin-bottom: 12px;
+}
+.cprofile-detail h6{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #31BF7B;
+    margin-bottom: 48px;
+}
+.cprofile-detail p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #878787;
+}
+.cprofile-detail .vm h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #232D79;
+    margin-bottom: 24px;
+}
+.cprofile-detail .vm p{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 42px;
+}
