@@ -2,6 +2,119 @@
 @media only screen and (max-width: 600px) {
     .wrapper-ct-img-mk {
         flex-direction: column;
+    } 
+    .navbar-brand img{
+        width: 38px !important;
+    }
+    .ct-nav .navbar-brand {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .img-carausel {
+        height: 80vh;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 5.86%, rgba(0, 0, 0, 0) 101.85%), url(../images/bg-hero-mobile.png);
+        background-position: right;
+        background-size: cover;
+    }
+    .carousel-caption {
+        right: 0%;
+        left: 5%;
+        top: 20%;
+        max-width: 284px;
+    }
+    .carousel-caption h1 {
+        font-size: 26px;
+        margin-bottom: 0;
+        line-height: 38px;
+    }
+    .hero-desc {
+        left: 0%;
+        max-width: 100%;
+        padding: 38px 26px 60px 26px;
+    }
+    .home-aboutus {
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    .title-ct {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+    .rw-prt-about-home{
+        flex-direction: column-reverse;
+    }
+    .cl-tk-left p {
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 55px;
+    }
+    .btn-group-tk{
+        display: flex;
+    }
+    .btn-group-tk .btn-tk {
+        padding: 16px 18px;
+    }
+    .bidang-usaha {
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    .mitra-home {
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    .wrapper-ct-title-mk {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .wrapper-ct-title-mk h5 {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .wrapper-ct-title-mk p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .wrapper-ct-img-mk img {
+        margin-bottom: 28px;
+    }
+    .wrapper-project-ct a {
+        display: none;
+    }
+    .ct-prt-project h5 {
+        text-align: center;
+    }
+    .wrapper-project-ct {
+        justify-content: center;
+        text-align: center;
+    }
+    .wrapper-project-ct {
+        margin-bottom: 18px;
+    }
+    .wrapper-card-project .card .card-body h5 {
+        text-align: left;
+    }
+    .wrapper-card-project .card {
+        margin-bottom: 38px;
+    }
+    .testimoni .card-testimoni {
+        width: 100%;
+        border-radius: 0;
+    }
+    .testimoni-item .card-body {
+        width: 100%;
+        padding: 24px;
+    }
+    .testimoni-item .card-body p {
+        font-size: 14px;
+    }
+    .wrapper-footer-right {
+        margin-bottom: 20px;
+        padding: 32px 24px;
+    }
+    .copy p {
+        line-height: 24px;
     }
 }
 

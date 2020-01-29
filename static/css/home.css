@@ -1,4 +1,3 @@
-
   .img-carausel{
     height: 100vh;
     background-image: url('../images/bg-hero1.png');
@@ -80,7 +79,7 @@
   padding-bottom: 98px;
   background-color: #F7FAFF;
 }
-.cl-tk-left h3{
+.title-ct{
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
@@ -110,10 +109,6 @@
 }
 .btn-group-tk .btn-tk:hover{
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  padding: 18px 45px;
-  text-transform: capitalize;
   color: #FFFFFF;
   border: 1px solid #5986CB;
   background-color: #5986CB;

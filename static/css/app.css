@@ -1,8 +1,18 @@
 * {
   font-family: 'Roboto', sans-serif;
  }
-
-
+.nav-color{
+  background: rgb(0, 29, 65);
+}
+ .navbar-light .navbar-toggler-icon {
+  background-image: url('../images/toggel.svg');
+}
+.navbar-light .navbar-toggler {
+  border: 0;
+}
+button:focus {
+  outline: 0;
+}
  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: #FFFFFF;
   font-weight: bold;
