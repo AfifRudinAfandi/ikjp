@@ -1,0 +1,95 @@
+.hero-bu{
+    height: 50vh;
+    background-image: url('../images/bg-hero2.png');
+    background-size: cover;
+    background-position: center;
+}
+.content-bidang{
+    padding-top: 80px;
+    padding-bottom: 148px;
+}
+.ct-bidang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ct-bidang h4{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #232D79;
+    margin-bottom: 24px;
+}
+.ct-bidang p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #878787;
+    max-width: 580px;
+    margin-bottom: 58px;
+}
+.card-bidang{
+    padding: 40px 48px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.card-bidang .card-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 54px;
+}
+.card-bidang .card-top .logo-bidang img{
+    width: 48px;
+    margin-right: 22px;
+}
+.card-bidang .card-top .title-bidang h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #232D79;
+    margin-bottom: 8px;
+}
+.card-bidang .card-top .title-bidang h6{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #959ABD;
+    margin-bottom: 0;
+}
+
+.card-bottom .ct-item-bidang{
+    display: flex;
+    margin-bottom: 24px;
+}
+.card-bottom .ct-item-bidang p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #232D79;
+    text-align: left;
+    margin-bottom: 0;
+}
+.card-bottom .ct-item-bidang i{
+    background-color: #31bf7b;
+    padding: 6px;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 18px;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
