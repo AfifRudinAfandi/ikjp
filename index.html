@@ -336,7 +336,15 @@
       })
     });
     </script>
+    <script>
+      $(document).ready(function(){
+        $(".navbar-toggler").on('click', function(){
+          setTimeout(function () {
+            $(".navbar").toggleClass("mystyle");
+          }, 80);
+        });
+      });
+    </script>
 </body>
 
 </html>
-
