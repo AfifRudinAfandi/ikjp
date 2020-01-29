@@ -117,3 +117,47 @@
     color: #000000;
     margin-bottom: 42px;
 }
+.cprofile-detail .sub-title-mp{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #878787;
+    max-width: 580px;
+    margin-bottom: 78px;
+}
+.cprofile-detail .title-mp{
+    margin-bottom: 24px;
+}
+.rw-mtk{
+    justify-content: center;
+}
+.rw-mtk .mt-logo{
+    text-align: center;
+    margin-bottom: 78px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rw-mtk .mt-logo img{
+    width: 80%;
+} 
+.budaya-perusahaan{
+    margin-top: 42px;
+}
+.budaya-perusahaan h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #232D79;
+    margin-bottom: 24px;
+}
+.budaya-perusahaan p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #878787;
+    margin-bottom: 42px;
+}
