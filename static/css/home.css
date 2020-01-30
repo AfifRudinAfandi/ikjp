@@ -122,6 +122,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-right: 0;
+  padding-left: 0;
 }
 .ct-prt-bu-home h3{
   font-weight: bold;
@@ -143,6 +145,9 @@
 }
 .rw-prt-bu-home{
   justify-content: center;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 .bg-bu-card{
   background-color: #31BF7B;
