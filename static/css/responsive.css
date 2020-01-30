@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .wrapper-ct-img-mk {
         flex-direction: column;
     } 
@@ -117,10 +117,57 @@
     .copy p {
         line-height: 24px;
     }
+
+
+
+    .cprofile-detail {
+        padding-left: 0;
+        padding-bottom: 100px;
+    }
+    .cprofile-detail .title-top {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .cprofile-detail .title-company {
+        font-size: 14px;
+        margin-bottom: 28px;
+    }
+    .cprofile-detail .caption-sekilas {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .rw-mtk .mt-logo {
+        justify-content: center;
+        margin-bottom: 58px;
+    }
+    .rw-mtk .mt-logo img {
+        width: 50%;
+    }
+    .sub-title-budaya{
+        text-align: center;
+    }
+    .sub-caption-budaya{
+        margin-bottom: 62px;
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .cprofile-detail .caption-budaya {
+        font-size: 14px;
+        line-height: 36px;
+    }
+
+    .cprofile-detail .vm .title-visi,
+    .cprofile-detail .vm .title-misi{
+        text-align: center;
+    }
+    .cprofile-detail .vm .caption-visi,
+    .cprofile-detail .vm .caption-misi{
+        text-align: center;
+    }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -140,6 +187,43 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .mitra-home {
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+    .wrapper-ct-title-mk {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .wrapper-ct-title-mk h5 {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .wrapper-ct-img-mk img {
+        max-width: 140px;
+        margin: auto;
+    }
+    .wrapper-card-project .card .card-body h5 {
+        font-size: 12px;
+    }
+    .wrapper-card-project .card .card-body p {
+        font-size: 10px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper-card-project .card .card-body p i {
+        font-size: 14px;
+    }
+    .testimoni .card-testimoni {
+        width: 90%;
+    }
+    .testimoni-item .card-body {
+        width: 80%;
+        padding: 24px;
+    }
     .cl-footer-left{
         flex: 0 0 100%;
         max-width: 100%;
@@ -151,6 +235,24 @@
     .cl-footer-right {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+
+
+
+    .cprofile-detail {
+        padding-left: 0;
+        padding-bottom: 100px;
+    }
+    .rw-cstm-nv{
+        justify-content: center;
+    }
+    .cstm-nv{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .tab-content{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
