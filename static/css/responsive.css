@@ -188,6 +188,38 @@
     .card-bottom .ct-item-bidang p {
         font-size: 14px;
     }
+
+
+
+
+    .wrapper-input-contact {
+        max-width: 100%;
+        padding: 60px 24px;
+    }
+    .ct-input-contact{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .input-contact {
+        margin-bottom: 190px;
+        margin-top: 0;
+    }
+    .wrapper-input-contact form .form-group .form-control {
+        font-size: 16px;
+        padding-left: 18px;
+    }
+    .wrapper-input-contact form .form-group label {
+        font-size: 14px;
+    }
+
+    .submit-group{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img-kontak{
+        display: none;
+    }
 }
 
 
@@ -284,6 +316,21 @@
     .card-bottom .ct-item-bidang {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+
+
+
+
+    .ip-ctk-lf{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .ip-ctk-rt{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .img-kontak{
+        width: 100%;
     }
 }
 

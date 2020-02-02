@@ -324,28 +324,32 @@
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src='static/js/app.js' type="text/javascript"></script>
   <script>
+
+
+    
     $(document).ready(function(){
       $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if (scroll > 10) {
-          $(".navbar-light").addClass("nav-color");
-        }
-        else{
-          $(".navbar-light").removeClass("nav-color");  	
-        }
-      })
-    });
-    </script>
-    <script>
-
-
-$(document).ready(function(){
-        $(".navbar-toggler").on('click', function(){
-          setTimeout(function () {
-            $(".navbar").toggleClass("mystyle");
-          }, 80);
-        });
+        scrollo();
       });
+
+    function scrollo (){
+      var scroll = $(window).scrollTop();
+            if (scroll > 1) {
+              $(".navbar-light").addClass("nav-color");
+            }
+            else{
+              $(".navbar-light").removeClass("nav-color");  
+            }
+          }
+          $('.collapse').on('show.bs.collapse', function () {
+              $(".navbar").addClass("nav-color")
+              $('.collapse').on('hidden.bs.collapse', function () {
+                        $(".navbar").removeClass("nav-color");
+                        scrollo();
+              }); 
+            });
+          });
+
     </script>
 </body>
 

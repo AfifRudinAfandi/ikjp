@@ -222,17 +222,28 @@
   <script src='static/js/app.js' type="text/javascript"></script>
   <script>
     $(document).ready(function(){
-      $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if (scroll > 10) {
-          $(".navbar-light").css("background" , "#001D41");
-        }
-        else{
-          $(".navbar-light").css("background" , "rgba(72, 203, 109, 0)");  	
-        }
-      })
-    });
-    </script>
+     $(window).scroll(function(){
+       scrollo();
+     });
+
+   function scrollo (){
+     var scroll = $(window).scrollTop();
+           if (scroll > 1) {
+             $(".navbar-light").addClass("nav-color");
+           }
+           else{
+             $(".navbar-light").removeClass("nav-color");  
+           }
+         }
+         $('.collapse').on('show.bs.collapse', function () {
+             $(".navbar").addClass("nav-color")
+             $('.collapse').on('hidden.bs.collapse', function () {
+                       $(".navbar").removeClass("nav-color");
+                       scrollo();
+             }); 
+           });
+         });
+   </script>
 </body>
 
 </html>

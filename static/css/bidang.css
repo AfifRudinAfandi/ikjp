@@ -68,6 +68,7 @@
 .card-bottom .ct-item-bidang{
     display: flex;
     margin-bottom: 24px;
+    align-items: baseline;
 }
 .card-bottom .ct-item-bidang p{
     font-weight: 500;

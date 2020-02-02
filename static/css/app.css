@@ -15,9 +15,6 @@ button:focus {
 }
 
 
-.mystyle{
-  background: rgb(0, 29, 65);
-}
  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: #FFFFFF;
   font-weight: bold;
