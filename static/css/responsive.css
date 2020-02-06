@@ -220,6 +220,50 @@
     .img-kontak{
         display: none;
     }
+
+    .project-list {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .col-title-prjc .title-prjc {
+        margin-top: 18px;
+    }
+    .col-title-prjc {
+        margin-bottom: 50px;
+    }
+    .list-category {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+
+    .ct-prjc-detail {
+        padding: 0;
+        margin-bottom: 58px;
+    }
+    .ct-prjc-detail .category-title {
+        margin-left: 0;
+    }
+    .ct-prjc-detail .title-detail-name {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .flex-profile .profile-detail {
+        margin-right: 22px;
+    }
+    .profile-detail .img-avatar-detail {
+        width: 42px;
+    }
+    .project-detail {
+        padding-bottom: 120px;
+    }
+    .wrapper-list-detail {
+        margin-bottom: 14px;
+    }
+    .ct-prjc-detail .detail-ctn {
+        line-height: 38px;
+        margin-top: 48px;
+    }
+
 }
 
 
@@ -331,6 +375,56 @@
     }
     .img-kontak{
         width: 100%;
+    }
+
+
+
+
+
+
+
+
+    .left-list{
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .col-image-prjc{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-title-prjc{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .right-list{
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .project-list {
+        padding-top: 120px;
+        padding-bottom: 200px;
+    }
+    .col-title-prjc .title-prjc {
+        margin-top: 18px;
+    }
+    .col-title-prjc {
+        margin-bottom: 50px;
+    }
+
+
+    .ct-prjc-detail {
+        padding: 0;
+    }
+    .ct-prjc-detail .category-title {
+        margin-left: 0;
+    }
+    .left-detail-col{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .right-detail-col{
+        flex: 0 0 40%;
+        max-width: 40%;
     }
 }
 
