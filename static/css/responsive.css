@@ -264,6 +264,54 @@
         margin-top: 48px;
     }
 
+
+
+
+
+
+
+
+
+    .nav-tabs .nav-item {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .wrapper-job-menu .btn {
+        padding-left: 18px;
+    }
+    .collapse-item .ul-collapse {
+        padding-left: 20px;
+    }
+    .collapse-item .ul-collapse .basic-item {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .collapse-item label {
+        font-size: 18px;
+        padding: 13px 0 13px 16px;
+    }
+    .btm-collapse {
+        padding-left: 56px;
+        padding-right: 20px;
+    }
+
+
+
+
+    .input-career {
+        margin-bottom: 190px;
+        margin-top: 0;
+    }
+    .ct-input-career {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .wrapper-input-career {
+        padding: 60px 24px;
+    }
+    
 }
 
 
