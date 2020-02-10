@@ -312,6 +312,19 @@
         padding: 60px 24px;
     }
     
+
+
+
+
+    .ct-list .row-list{
+        flex-direction: column-reverse;
+    }
+    .right-list .list-category{
+        margin-bottom: 50px;
+    }
+    .left-list h4 {
+        text-align: center;
+    }
 }
 
 
