@@ -1,5 +1,5 @@
 .hero-bu{
-    height: 50vh;
+    height: 35vh;
     background-image: url('../images/bg-hero2.png');
     background-size: cover;
     background-position: center;
@@ -7,28 +7,29 @@
 
 .input-contact{
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    margin-bottom: 300px;
+    /* padding-top: 40px; */
+    padding-bottom: 200px;
   }
 
   .wrapper-input-contact{
       background-color: #fff;
-      padding: 60px 56px 86px 56px;
+      padding: 40px;
+      padding-bottom: 68px;
       border-radius: 12px;
-      margin-top: -130px;
+      margin-top: -16vh;
   }
   .wrapper-input-contact .form-group .form-control {
-    height: 64px;
+    height: 7vh;
 }
 
 .wrapper-input-contact form .form-group label{
     color: #909AAD;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 10px;
+    margin-bottom: 0;
 }
 .wrapper-input-contact form .form-group{
-    margin-bottom: 32px;
+        margin-bottom: 3.6vh;
 }
 .form-control:focus {
     color: #48CB6D;
@@ -41,7 +42,7 @@
     border-color: #909AAD;
     color: #909AAD;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 23px;
     border: 1px solid #909AAD;
 }
@@ -114,7 +115,7 @@
     font-size: 18px;
     color: #ffffff;
     max-width: 660px;
-    padding: 10px 50px 10px 50px;
+    padding: 8px 40px 8px 40px;
   }
   .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
     color: #212529;
@@ -123,5 +124,13 @@
   }
 
   .img-kontak{
-      width: 90%;
+      width: 60%;
+  }
+
+  .ip-ctk-rt{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
   }

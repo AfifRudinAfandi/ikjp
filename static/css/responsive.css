@@ -231,11 +231,11 @@
     .col-title-prjc {
         margin-bottom: 50px;
     }
-    .list-category {
-        padding-left: 34px;
-        padding-right: 34px;
+    
+    .wrapper-list-category a{
+        padding-left: 32px;
+        padding-right: 32px;
     }
-
     .ct-prjc-detail {
         padding: 0;
         margin-bottom: 58px;
